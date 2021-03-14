@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Federo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #772B54;
+  background-color: #F6EDE9;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #772B54;
+  cursor: pointer;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 59px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1466px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.btn {
+  padding: 20px 40px;
+  color: #fff;
+  background: #FF7BAF;
+  transition: filter 0.5s ease;
+}
+
+.btn:hover {
+  filter: drop-shadow(4px 4px 25px rgba(255, 123, 175, 0.68));
+}
+
+.hero__inner {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero__title {
+  margin-bottom: 13px;
+}
+
+.hero__subtitle {
+  margin-bottom: 45px;
+}
+
+.hero__images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.hero__action {
+  margin-bottom: 27px;
+}
