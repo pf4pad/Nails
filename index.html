@@ -15,43 +15,48 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="" class="header__link logo">
-              KATYSHA TUROVCHIK
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#works">
-              Мои работы
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#price">
-              Прайс
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#about">
-              Обо мне
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#reviews">
-              Отзывы
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#contact">
-              Контакты
-            </a>
-          </li>
-          <li class="header__item">
-            <a href="" class="header__link btn">
-              Заказать звонок
-            </a>
-          </li>
-        </ul>
+        <button class="burger">
+
+        </button>
+        <nav>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="" class="header__link logo">
+                KATYSHA TUROVCHIK
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#works">
+                Мои работы
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#price">
+                Прайс
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#about">
+                Обо мне
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#reviews">
+                Отзывы
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#contact">
+                Контакты
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link btn" href="tel:+375295543002">
+                Заказать звонок
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -73,7 +78,7 @@
           <p class="hero__action">
             ПРИВЕДИ ПОДРУГУ - ПОЛУЧИ СКИДКУ 20%
           </p>
-          <a href="" class="hero__link btn">
+          <a class="hero__link btn" href="tel:+375295543002">
             Записаться на маникюр
           </a>
         </div>
@@ -140,16 +145,16 @@
             <img class="works__img" src="img/works/candy1.jpg" alt="nails">
             <img class="works__img" src="img/works/nails2.jpg" alt="nails">
             <img class="works__img" src="img/works/candy2.jpg" alt="nails">
-            <img class="works__img" src="img/works/nails3.jpg" alt="nails">
             <img class="works__img" src="img/works/candy3.jpg" alt="nails">
-            <img class="works__img" src="img/works/nails4.jpg" alt="nails">
+            <img class="works__img" src="img/works/nails3.jpg" alt="nails">
             <img class="works__img" src="img/works/candy4.jpg" alt="nails">
+            <img class="works__img" src="img/works/nails4.jpg" alt="nails">
             <img class="works__img" src="img/works/nails5.jpg" alt="nails">
             <img class="works__img" src="img/works/candy5.jpg" alt="nails">
             <img class="works__img" src="img/works/nails6.jpg" alt="nails">
             <img class="works__img" src="img/works/candy6.jpg" alt="nails">
           </div>
-          <a href="" class="works__link btn">Больше работ в Instagram</a>
+          <a class="works__link btn" href="tel:+375295543002">Записаться на маникюр</a>
         </div>
       </div>
     </section>
@@ -158,49 +163,63 @@
       <div class="container">
         <div class="price__inner">
           <h2 class="price__title">
-            ПРАЙС
+
+            <!-- Здесь меняем на Мои цены и выставляем цены -->
+
+            Мои услуги
           </h2>
           <div class="price__items">
             <div class="price__left">
-              <span class="price__list">
+              <p class="price__list">
                 Экспресс-маникюр аппаратный
-              </span>
-              <span class="price__list">
-                без покрытия ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р
-              </span>
-              <span class="price__list">Экспресс-маникюр с покрытием</span> <br>
-              <span class="price__item"> гель-лаком:</span>
-              <span class="price__item">однтоннный ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
-              <span class="price__item">
-                френч / лунки ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">дизайн четырёх ногтей ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__list">
+                без покрытия <span class="price__hidden"> ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р</span>
+              </p>
+              <p class="price__list">Экспресс-маникюр с покрытием</p>
+              <p class="price__item">
+                гель-лаком:
+              </p>
+              <p class="price__item">
+                однотоннный <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                френч / лунки <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                дизайн четырёх ногтей<span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                дизайн каждого ногтя<span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
             </div>
             <div class="price__right">
-              <span class="price__item">
-                градиентный ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                двойной градиент ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                стеганный ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                лунный ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                матовый ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                1 страз Swarovski ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
-              <span class="price__item">
-                роспись одного ногтя ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.
-              </span>
+              <p class="price__item">
+                градиентный <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                двойной градиент<span class="price__hidden"> ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                стеганный
+                <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                лунный
+                <span class="price__hidden"> ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                матовый <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                1 страз Swarovski <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
+              <p class="price__item">
+                роспись одного ногтя <span class="price__hidden">~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 00р.</span>
+              </p>
             </div>
           </div>
-          <a href="" class="price__link btn">
+          <a class="price__link btn" href="tel:+375295543002">
             Записаться на маникюр
           </a>
         </div>
@@ -345,44 +364,39 @@
               </div>
             </div>
           </div>
-          <a class="reviews__link btn" href="">Записаться на маникюр</a>
+          <a class="reviews__link btn" href="tel:+375295543002">Записаться на маникюр</a>
     </section>
-    <section class="order" id="order">
+    <section class="contact" id="contact">
       <div class="container">
-        <div class="order__inner">
-          <div class="order__content">
-            <div class="order__content">
-              <div class="order__content-form">
-                <h2 class="order__title">
-                  Оставить заявку
-                </h2>
-                <p class="order__text">
-                  Оставьте свои контакты. Я перезвоню<br>
-                  в удобное вам время и отвечу на все вопросы.
-                </p>
-                <form action="telegram.php" method="POST">
-                  <div class="form-group">
-                    <input type="text" name="" id="" placeholder="Ваше имя" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" name="" id="" placeholder="Введите телефон" required>
-                  </div>
+        <div class="contact__inner">
+          <div class="contact__content">
+            <div class="contact__content-fon">
+              <h3 class="contact__title">
+                ГДЕ МЕНЯ НАЙТИ
+              </h3>
+              <address>
+                Адрес:
+                г. Калинковичи ул. Островского 59а
+              </address>
 
-
-                  <div class="form__btn">
-                    <button type="submit">
-                      Записаться на маникюр
-                    </button>
-                  </div>
-
-                </form>
-              </div>
+              <time class="contact__time">8:00 - 21:00</time>
+              <a href="tel:+375295543002">
+                тел: +375295543002
+              </a>
+              <p class="contact__path">
+                Как добраться: <br>
+                Автобусы &#8470;&nbsp;1, 4, 7, 24, 44, 116, 138, 144
+                ост. улица Свердлова 650м
+              </p>
+              <a href="tel:+375295543002" class="contact__link btn">
+                Записаться на маникюр
+              </a>
             </div>
           </div>
-          <div class="order__map">
+          <div class="contact__map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.1185846358745!2d29.302363007175554!3d52.13269832687593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d66cc7020353a7%3A0x69d1cbfd842d3ce9!2z0YPQu9C40YbQsCDQntGB0YLRgNC-0LLRgdC60L7Qs9C-LCDQmtCw0LvRltC90LrQsNCy0ZbRh9GLLCDQkdC10LvQsNGA0YPRgdGM!5e0!3m2!1sru!2sua!4v1615810358364!5m2!1sru!2sua"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -390,7 +404,48 @@
 
   </main>
   <footer class="footer">
-
+    <div class="container">
+      <nav>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="" class="header__link logo">
+              KATYSHA TUROVCHIK
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#works">
+              Мои работы
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#price">
+              Прайс
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#about">
+              Обо мне
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#reviews">
+              Отзывы
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#contact">
+              Контакты
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="tel:+375295543002">
+              <img src="img/phone.svg" alt="">
+              +375295543002
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </footer>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/slick.min.js"></script>
