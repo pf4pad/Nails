@@ -100,6 +100,10 @@ h3 {
   margin-bottom: 27px;
 }
 
+.slider {
+  display: none;
+}
+
 .why-me__inner {
   text-align: center;
   padding: 100px 0;
@@ -339,6 +343,10 @@ h3 {
   padding: 50px 0;
 }
 
+.toggle.active {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .header__list {
     display: none;
@@ -349,7 +357,7 @@ h3 {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #e51e2a;
+    background: #e2b7ce;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,21 +368,56 @@ h3 {
     position: relative;
     width: 30px;
     height: 30px;
-    background: url(../img/menu.png);
+    background: #e2b7ce url(../img/close.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     z-index: 1000;
+    border: none;
   }
-  .active {
+  .toggle.active {
+    display: block;
     position: fixed;
     right: 40px;
-    background: url(../img/close.png);
+    background: #e2b7ce url(../img/menu.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     z-index: 1000;
+    border: none;
+    margin-top: 20px;
+  }
+  .header__item {
+    margin: 10px 0;
+  }
+  .hero__images {
+    display: none;
+  }
+  .slider {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .hero__image {
+    margin: auto;
+  }
+  .hero__inner {
+    padding: 70px 0;
+  }
+  .candy {
+    display: none;
+  }
+  .reviews__items,
+  .about__inner {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .about__diploms {
+    flex-direction: column;
+  }
+  .reviews__item {
+    width: 90%;
+    margin-bottom: 50px;
   }
 }
