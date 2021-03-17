@@ -1,12 +1,12 @@
-$(function(){
-  $('.slider').slick({
-    dots: false,
-      infinite: true,
-      speed: 1500,
-      autoplay: true,
-      arrows: true,
-      prevArrow:'<button class="slider-btn slider-btnPrev"><img src="img/arrow-btnNext.svg">',
-nextArrow:'<button class="slider-btn slider-btnNext"><img src="img/arrow-btnPrev.svg">'
  
-});
-});
+   
+
+    function toggleMenu(params) {
+
+      const menuToggle = document.querySelector('.toggle');
+      const navugation = document.querySelector('.header__list');
+      menuToggle.classList.toggle('active')
+      navugation.classList.toggle('active')
+
+    }
+  
