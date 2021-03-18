@@ -15,6 +15,10 @@ body {
   color: #772B54;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 img {
   max-width: 100%;
 }

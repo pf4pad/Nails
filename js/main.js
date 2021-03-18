@@ -1,11 +1,12 @@
- 
+      const menuToggle = document.querySelector('.toggle');
+      const navugation = document.querySelector('.header__list');
    
      function toggleMenu(params) {
 
-       const menuToggle = document.querySelector('.toggle');
-       const navugation = document.querySelector('.header__list');
-       menuToggle.classList.toggle('active')
-       navugation.classList.toggle('active')
+       
+       menuToggle.classList.toggle('active');
+       navugation.classList.toggle('active');
+      document.body.classList.toggle('lock');
 
      };
 
@@ -31,12 +32,20 @@ if (menuLinks.length > 0) {
 const gotoBlock = document.querySelector(menuLink.dataset.goto);
 const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
 
+      if (navugation.classList.contains('active')) {
+        menuToggle.classList.toggle('active');
+       navugation.classList.remove('active');
+      document.body.classList.remove('lock');
+      };
+      
+
     window.scrollTo({
 top: gotoBlockValue,
 behavior: "smooth"
 
 
     });
+    
     e.preventDefault();
 
     }
