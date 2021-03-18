@@ -45,8 +45,10 @@ h3
   max-width: 1466px
   padding: 0 15px
   margin: 0 auto
+
 .logo
   text-transform: uppercase
+
 .header__list
   display: flex
   justify-content: space-evenly
@@ -72,6 +74,10 @@ h3
   display: flex
   justify-content: center
   margin-bottom: 45px
+
+.hero__image
+  flex-basis: 30%
+  flex-shrink: 1
 .hero__action
   margin-bottom: 27px
 .slider
@@ -82,21 +88,22 @@ h3
   padding: 100px 0
 
 .why-me__title
-  margin-bottom: 10px
+  margin-bottom: 80px
 .why-me__items
   display: flex
   justify-content: space-between
-  align-items: center
+  flex-wrap: wrap
   max-width: 1034px
   margin: 0 auto
-  margin-top: 50px
+  margin-bottom: 50px
 .why-me__item
-  max-width: 250px
+  text-align: center
+  flex-basis: 33%
 
 .why-me__img
   margin-bottom: 25px
 .why-me__text
-
+  margin-bottom: 50px
 .works__inner
   text-align: center
   padding-bottom: 100px
@@ -273,7 +280,9 @@ h3
     z-index: 10
 
   .toggle
-    position: relative
+    position: fixed
+    top: 40px
+    right: 40px
     width: 30px
     height: 30px
     background: #e2b7ce url(../img/close.png)
@@ -286,6 +295,7 @@ h3
   .toggle.active
     display: block
     position: fixed
+    top: 40px
     right: 40px
     background: #e2b7ce url(../img/menu.png)
     background-size: 25px
@@ -294,7 +304,7 @@ h3
     cursor: pointer
     z-index: 1000
     border: none
-    margin-top: 20px
+
   .header__item
     margin: 10px 0
   .hero__images
@@ -311,6 +321,8 @@ h3
   .price__items
     flex-direction: column
 
+  .why-me__item
+    flex-basis: 50%
   .price__left,
   .price__right
     margin: auto
